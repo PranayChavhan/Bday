@@ -50,7 +50,8 @@ section {
   position: absolute;
   bottom: 0;
   z-index: 5;
-  width: 450px;
+  width: 100%; /* Use 100% width on mobile screens */
+  max-width: 450px; /* Set a maximum width */
   filter: contrast(90%);
   pointer-events: none;
 }
@@ -486,7 +487,8 @@ body.prevent-background-scroll {
 @media (max-width: 880px) {
   .hero {
     left: 15%;
-    width: 400px;
+    width: 100%; /* Use full width on smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
   }
 
   .title {
@@ -504,6 +506,9 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 700px) {
+  .hero {
+    left: 10%;
+  }
   .box-container {
     position: absolute;
     top: 21%;
@@ -546,7 +551,8 @@ body.prevent-background-scroll {
   }
 
   .hero {
-    width: 400px;
+    width: 100%; /* Use full width on smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
   }
 
   .title {
