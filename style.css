@@ -61,7 +61,18 @@ section {
   left: 5%;
   /* font-family: "Agbalumo", cursive; */
   font-family: "Kalam", cursive;
-  font-size: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  transition-delay: 3s;
+}
+
+.subtitle {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  /* font-family: "Agbalumo", cursive; */
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
   color: #fff;
   transition-delay: 3s;
 }
@@ -480,7 +491,7 @@ body.prevent-background-scroll {
 @media (max-width: 1200px) {
   .hero {
     border-radius: 3%;
-    top: 20%;
+    top: 30%;
     width: 50%;
     
   }
