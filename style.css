@@ -59,12 +59,13 @@ section {
   position: absolute;
   top: 20%;
   left: 5%;
-  /* font-family: "Agbalumo", cursive; */
   font-family: "Kalam", cursive;
   font-size: 3rem;
   color: #fff;
+  line-height: 1.5; /* Adjust the line height based on your preference */
   transition-delay: 3s;
 }
+
 
 .subtitle {
   position: absolute;
