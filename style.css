@@ -50,8 +50,7 @@ section {
   position: absolute;
   bottom: 0;
   z-index: 5;
-  width: 100%; /* Use 100% width on mobile screens */
-  max-width: 450px; /* Set a maximum width */
+  width: 450px; /* Set a maximum width */
   filter: contrast(90%);
   pointer-events: none;
 }
@@ -480,7 +479,10 @@ body.prevent-background-scroll {
 
 @media (max-width: 1200px) {
   .hero {
-    width: 420px;
+    border-radius: 3%;
+    top: 30%;
+    width: 75%;
+    
   }
 }
 
