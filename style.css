@@ -480,7 +480,7 @@ body.prevent-background-scroll {
 @media (max-width: 1200px) {
   .hero {
     border-radius: 3%;
-    top: 30%;
+    top: 20%;
     width: 50%;
     
   }
